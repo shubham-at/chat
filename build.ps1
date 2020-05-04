@@ -29,5 +29,7 @@ else
 {
     Write-Output $CAKE_DLL
     Write-Output $BuildFile
+    Write-Output $Target
+    Write-Output $Verbosity
     dotnet $CAKE_DLL $BuildFile --target=$Target -verbosity=$Verbosity
 }
