@@ -29,7 +29,5 @@ else
 {
     Write-Output $CAKE_DLL
     Write-Output $BuildFile
-    Write-Output $Target
-    Write-Output $Verbosity
-    dotnet "$CAKE_DLL" "$BuildFile" --target="$Target" -verbosity="$Verbosity"
+    dotnet "C:\projects\chat\tools\Cake.CoreCLR.0.29.0\cake.coreclr\0.29.0\Cake.dll" "C:\projects\chat\build.cake" --target="$Target" -verbosity="$Verbosity"
 }
