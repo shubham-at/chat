@@ -20,6 +20,7 @@ namespace CommunicationModule.Controllers
 
         public ChatController(IChatServices services)
         {
+            // major release
             _chatServices = services;
         }
 
