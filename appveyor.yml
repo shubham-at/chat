@@ -1,0 +1,20 @@
+environment:
+  GITHUB_TOKEN:
+    secure: 671337a6d15d24fe38338b97ee96eb4666649af8
+  NUGET_TOKEN:
+    secure: oy2nfjjjmdddt746tkmqminnpb5bmd3erewrlvpslvjjau
+
+# semantic-version requires node > 8.3 so instruct appveyor to install node 9
+install:
+  - ps: Install-Product node 9
+
+# run out script
+build_script:
+  - ps: .\build.ps1
+
+test: off
+
+skip_tags: true
+
+cache:
+- tools -> build.cake
