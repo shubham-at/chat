@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{C2F5576A-23D0-49D5-B0FB-7CAD862B261E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChatMiddleware.Libs/Repositories/ChatRepository.cs">
+    <Files>
+      <File FileName="CommunicationModule/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="CommunicationModule/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="ChatMiddleware.Libs/Repositories/ChatRepository.cs" Line="23" Column="50" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CommunicationModule" expanded="True">
+            <Node name="ChatMiddleware.Libs" expanded="True">
+              <Node name="Repositories" expanded="True">
+                <Node name="ChatRepository.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="CommunicationModule" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CommunicationModule PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>docker-compose.dcproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/nomercy2306/Projects/CommunicationModule/Pipeline/Tester.cs" relfile="Pipeline/Tester.cs" line="32" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

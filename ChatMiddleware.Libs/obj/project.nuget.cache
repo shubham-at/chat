@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Xl6omjjsVlwCGSG26P5U9YabLAbFlAohPsnNA26w7FHmQGLD5FBdTaUFsBa/meZ1doeEVmEWP6I3eMM19R84GA==",
+  "success": true,
+  "projectFilePath": "/Users/nomercy2306/Projects/CommunicationModule/ChatMiddleware.Libs/ChatMiddleware.Libs.csproj",
+  "expectedPackageFiles": [
+    "/Users/nomercy2306/.nuget/packages/awssdk.core/3.3.106.3/awssdk.core.3.3.106.3.nupkg.sha512",
+    "/Users/nomercy2306/.nuget/packages/awssdk.dynamodbv2/3.3.105.26/awssdk.dynamodbv2.3.3.105.26.nupkg.sha512",
+    "/Users/nomercy2306/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/nomercy2306/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

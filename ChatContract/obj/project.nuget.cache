@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/+ZNz8ViIsOM4XWhBNjAob9yaN1td54DA3TalEAnuBy2uask6asVh7mSyFa0FDcMsA6z4e8Ais474HM4vlOYXw==",
+  "success": true,
+  "projectFilePath": "/Users/nomercy2306/Projects/CommunicationModule/ChatContract/ChatContract.csproj",
+  "expectedPackageFiles": [
+    "/Users/nomercy2306/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/nomercy2306/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

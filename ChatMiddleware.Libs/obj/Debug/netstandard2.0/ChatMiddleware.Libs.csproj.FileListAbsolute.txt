@@ -1,0 +1,12 @@
+/Users/nomercy2306/Projects/CommunicationModule/ChatMiddleware.Libs/bin/Debug/netstandard2.0/ChatMiddleware.Libs.deps.json
+/Users/nomercy2306/Projects/CommunicationModule/ChatMiddleware.Libs/bin/Debug/netstandard2.0/ChatMiddleware.Libs.dll
+/Users/nomercy2306/Projects/CommunicationModule/ChatMiddleware.Libs/bin/Debug/netstandard2.0/ChatMiddleware.Libs.pdb
+/Users/nomercy2306/Projects/CommunicationModule/ChatMiddleware.Libs/bin/Debug/netstandard2.0/ChatContract.dll
+/Users/nomercy2306/Projects/CommunicationModule/ChatMiddleware.Libs/bin/Debug/netstandard2.0/ChatContract.pdb
+/Users/nomercy2306/Projects/CommunicationModule/ChatMiddleware.Libs/obj/Debug/netstandard2.0/ChatMiddleware.Libs.csprojAssemblyReference.cache
+/Users/nomercy2306/Projects/CommunicationModule/ChatMiddleware.Libs/obj/Debug/netstandard2.0/ChatMiddleware.Libs.csproj.CoreCompileInputs.cache
+/Users/nomercy2306/Projects/CommunicationModule/ChatMiddleware.Libs/obj/Debug/netstandard2.0/ChatMiddleware.Libs.AssemblyInfoInputs.cache
+/Users/nomercy2306/Projects/CommunicationModule/ChatMiddleware.Libs/obj/Debug/netstandard2.0/ChatMiddleware.Libs.AssemblyInfo.cs
+/Users/nomercy2306/Projects/CommunicationModule/ChatMiddleware.Libs/obj/Debug/netstandard2.0/ChatMiddleware.Libs.csproj.CopyComplete
+/Users/nomercy2306/Projects/CommunicationModule/ChatMiddleware.Libs/obj/Debug/netstandard2.0/ChatMiddleware.Libs.dll
+/Users/nomercy2306/Projects/CommunicationModule/ChatMiddleware.Libs/obj/Debug/netstandard2.0/ChatMiddleware.Libs.pdb

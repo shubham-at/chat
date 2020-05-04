@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+<AssemblyVersion>1.0.0</AssemblyVersion>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DockerComposeProjectPath>../docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>40f56aad-4fa3-4334-825f-17969542801b</UserSecretsId>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <ReleaseVersion>0.0.5</ReleaseVersion>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.3.101" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.3.105.26" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ChatContract\ChatContract.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\ChatMiddleware.Libs\ChatMiddleware.Libs.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

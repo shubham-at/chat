@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "Mb12R7Q8Z027mJT9hbqY52nLl8zH1SEvC7sjPMMTeieopOqIaj76pqYidcnEv6zxPqzj+bdrkk1lxS8OzOkBoQ==",
+  "success": true,
+  "projectFilePath": "/Users/nomercy2306/Projects/CommunicationModule/CommunicationModule/CommunicationModule.csproj",
+  "expectedPackageFiles": [
+    "/Users/nomercy2306/.nuget/packages/awssdk.core/3.3.106.3/awssdk.core.3.3.106.3.nupkg.sha512",
+    "/Users/nomercy2306/.nuget/packages/awssdk.dynamodbv2/3.3.105.26/awssdk.dynamodbv2.3.3.105.26.nupkg.sha512",
+    "/Users/nomercy2306/.nuget/packages/awssdk.extensions.netcore.setup/3.3.101/awssdk.extensions.netcore.setup.3.3.101.nupkg.sha512",
+    "/Users/nomercy2306/.nuget/packages/microsoft.extensions.configuration.abstractions/2.0.0/microsoft.extensions.configuration.abstractions.2.0.0.nupkg.sha512",
+    "/Users/nomercy2306/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.0.0/microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "/Users/nomercy2306/.nuget/packages/microsoft.extensions.logging.abstractions/2.0.0/microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
+    "/Users/nomercy2306/.nuget/packages/microsoft.extensions.primitives/2.0.0/microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+    "/Users/nomercy2306/.nuget/packages/system.runtime.compilerservices.unsafe/4.4.0/system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

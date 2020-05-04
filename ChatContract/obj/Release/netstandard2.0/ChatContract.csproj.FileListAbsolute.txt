@@ -1,0 +1,9 @@
+/Users/nomercy2306/Projects/CommunicationModule/ChatContract/bin/Release/netstandard2.0/ChatContract.deps.json
+/Users/nomercy2306/Projects/CommunicationModule/ChatContract/bin/Release/netstandard2.0/ChatContract.dll
+/Users/nomercy2306/Projects/CommunicationModule/ChatContract/bin/Release/netstandard2.0/ChatContract.pdb
+/Users/nomercy2306/Projects/CommunicationModule/ChatContract/obj/Release/netstandard2.0/ChatContract.csprojAssemblyReference.cache
+/Users/nomercy2306/Projects/CommunicationModule/ChatContract/obj/Release/netstandard2.0/ChatContract.csproj.CoreCompileInputs.cache
+/Users/nomercy2306/Projects/CommunicationModule/ChatContract/obj/Release/netstandard2.0/ChatContract.AssemblyInfoInputs.cache
+/Users/nomercy2306/Projects/CommunicationModule/ChatContract/obj/Release/netstandard2.0/ChatContract.AssemblyInfo.cs
+/Users/nomercy2306/Projects/CommunicationModule/ChatContract/obj/Release/netstandard2.0/ChatContract.dll
+/Users/nomercy2306/Projects/CommunicationModule/ChatContract/obj/Release/netstandard2.0/ChatContract.pdb

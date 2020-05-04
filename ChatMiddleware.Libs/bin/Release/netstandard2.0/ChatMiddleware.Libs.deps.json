@@ -1,0 +1,92 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "ChatMiddleware.Libs/1.0.0": {
+        "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.3.105.26",
+          "ChatContract": "1.0.0",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "ChatMiddleware.Libs.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.3.106.3": {
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.106.3"
+          }
+        }
+      },
+      "AWSSDK.DynamoDBv2/3.3.105.26": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.106.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.DynamoDBv2.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.105.26"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "ChatContract/1.0.0": {
+        "runtime": {
+          "ChatContract.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ChatMiddleware.Libs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.3.106.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eFmqSDbnaqAlGHLNsHYwDON3UiTmiGtQfIvfe39jp6fAD1bE/+J2jtZ76/KRpBLvus8KoWUcSqntzBUYvbTStg==",
+      "path": "awssdk.core/3.3.106.3",
+      "hashPath": "awssdk.core.3.3.106.3.nupkg.sha512"
+    },
+    "AWSSDK.DynamoDBv2/3.3.105.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w8EIsIf2d3U1mOkV7Pj79g92KMv1l5MoltWQYzCzHX4QVK8t4y5oIPB2BrxBPHYk3//3zCf9W/WopCfSA/IgJw==",
+      "path": "awssdk.dynamodbv2/3.3.105.26",
+      "hashPath": "awssdk.dynamodbv2.3.3.105.26.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "ChatContract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{82F83104-9BB6-4559-AA38-BEB606D28058}|Default">
+  <MonoDevelop.Ide.ItemProperties.Inventory PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Inventory/Dockerfile">
+    <Files>
+      <File FileName="Inventory/Models/InventoryObjectClass.cs" Line="10" Column="22" />
+      <File FileName="Inventory/Services/InventoryItemInterface.cs" />
+      <File FileName="Inventory/Services/InventoryObjectInterfaceClass.cs" />
+      <File FileName="Inventory/Controllers/InventoryManagerController.cs" />
+      <File FileName="Inventory/Dockerfile" Line="23" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Inventory" expanded="True">
+            <Node name="docker-compose" expanded="True" />
+            <Node name="Inventory" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+              <Node name="Dockerfile" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

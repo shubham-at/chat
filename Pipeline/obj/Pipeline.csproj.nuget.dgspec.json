@@ -1,0 +1,270 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/nomercy2306/Projects/CommunicationModule/Pipeline/Pipeline.csproj": {}
+  },
+  "projects": {
+    "/Users/nomercy2306/Projects/CommunicationModule/ChatContract/ChatContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nomercy2306/Projects/CommunicationModule/ChatContract/ChatContract.csproj",
+        "projectName": "ChatContract",
+        "projectPath": "/Users/nomercy2306/Projects/CommunicationModule/ChatContract/ChatContract.csproj",
+        "packagesPath": "/Users/nomercy2306/.nuget/packages/",
+        "outputPath": "/Users/nomercy2306/Projects/CommunicationModule/ChatContract/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nomercy2306/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nomercy2306/Projects/CommunicationModule/ChatMiddleware.Libs/ChatMiddleware.Libs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nomercy2306/Projects/CommunicationModule/ChatMiddleware.Libs/ChatMiddleware.Libs.csproj",
+        "projectName": "ChatMiddleware.Libs",
+        "projectPath": "/Users/nomercy2306/Projects/CommunicationModule/ChatMiddleware.Libs/ChatMiddleware.Libs.csproj",
+        "packagesPath": "/Users/nomercy2306/.nuget/packages/",
+        "outputPath": "/Users/nomercy2306/Projects/CommunicationModule/ChatMiddleware.Libs/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nomercy2306/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/nomercy2306/Projects/CommunicationModule/ChatContract/ChatContract.csproj": {
+                "projectPath": "/Users/nomercy2306/Projects/CommunicationModule/ChatContract/ChatContract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.3.105.26, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nomercy2306/Projects/CommunicationModule/CommunicationModule/CommunicationModule.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nomercy2306/Projects/CommunicationModule/CommunicationModule/CommunicationModule.csproj",
+        "projectName": "CommunicationModule",
+        "projectPath": "/Users/nomercy2306/Projects/CommunicationModule/CommunicationModule/CommunicationModule.csproj",
+        "packagesPath": "/Users/nomercy2306/.nuget/packages/",
+        "outputPath": "/Users/nomercy2306/Projects/CommunicationModule/CommunicationModule/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nomercy2306/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/nomercy2306/Projects/CommunicationModule/ChatContract/ChatContract.csproj": {
+                "projectPath": "/Users/nomercy2306/Projects/CommunicationModule/ChatContract/ChatContract.csproj"
+              },
+              "/Users/nomercy2306/Projects/CommunicationModule/ChatMiddleware.Libs/ChatMiddleware.Libs.csproj": {
+                "projectPath": "/Users/nomercy2306/Projects/CommunicationModule/ChatMiddleware.Libs/ChatMiddleware.Libs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.3.105.26, )"
+            },
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.3.101, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nomercy2306/Projects/CommunicationModule/Pipeline/Pipeline.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nomercy2306/Projects/CommunicationModule/Pipeline/Pipeline.csproj",
+        "projectName": "Pipeline",
+        "projectPath": "/Users/nomercy2306/Projects/CommunicationModule/Pipeline/Pipeline.csproj",
+        "packagesPath": "/Users/nomercy2306/.nuget/packages/",
+        "outputPath": "/Users/nomercy2306/Projects/CommunicationModule/Pipeline/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nomercy2306/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/nomercy2306/Projects/CommunicationModule/ChatContract/ChatContract.csproj": {
+                "projectPath": "/Users/nomercy2306/Projects/CommunicationModule/ChatContract/ChatContract.csproj"
+              },
+              "/Users/nomercy2306/Projects/CommunicationModule/ChatMiddleware.Libs/ChatMiddleware.Libs.csproj": {
+                "projectPath": "/Users/nomercy2306/Projects/CommunicationModule/ChatMiddleware.Libs/ChatMiddleware.Libs.csproj"
+              },
+              "/Users/nomercy2306/Projects/CommunicationModule/CommunicationModule/CommunicationModule.csproj": {
+                "projectPath": "/Users/nomercy2306/Projects/CommunicationModule/CommunicationModule/CommunicationModule.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.3.105.32, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

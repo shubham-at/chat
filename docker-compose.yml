@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  communicationmodule:
+    image: ${DOCKER_REGISTRY-}communicationmodule
+    build:
+      context: .
+      dockerfile: CommunicationModule/Dockerfile
