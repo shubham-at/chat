@@ -1,8 +1,8 @@
 environment:
   GITHUB_TOKEN:
-    secure: p0GrMwBfnOtyKmChaxAbTUnx2uZQ+vwMdVCVNjMUhVNgzWukUHBOcs2XGR0uQNlf
+    secure: 671337a6d15d24fe38338b97ee96eb4666649af8
   NUGET_TOKEN:
-    secure: HG2hrWYW66cORRkypXxoGtSjM6OV+Lm8Qxl/6vxX6JobeMe0Nrdd09ritNUIUaty
+    secure: oy2nfjjjmdddt746tkmqminnpb5bmd3erewrlvpslvjjau
 
 # semantic-version requires node > 8.3 so instruct appveyor to install node 9
 install:
