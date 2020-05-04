@@ -27,5 +27,5 @@ if (-not (Test-Path $CAKE_DLL))
 }
 else
 {
-    dotnet "$CAKE_DLL" "$BuildFile" --target="$Target" -verbosity="$Verbosity"
+    dotnet $CAKE_DLL $BuildFile --target=$Target -verbosity=$Verbosity
 }
