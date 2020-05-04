@@ -31,5 +31,5 @@ else
     # Write-Output $BuildFile
     # Write-Output $Target
     # Write-Output $Verbosity
-    dotnet $CAKE_DLL $BuildFile --target=$Target -verbosity=$Verbosity
+    dotnet "$CAKE_DLL" "$BuildFile" --target="$Target" -verbosity="$Verbosity"
 }
