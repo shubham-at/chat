@@ -27,7 +27,5 @@ if (-not (Test-Path $CAKE_DLL))
 }
 else
 {
-    Write-Output $CAKE_DLL
-    Write-Output $BuildFile
     dotnet "$CAKE_DLL" "$BUILDFile" --target="$Target" -verbosity="$Verbosity"
 }
