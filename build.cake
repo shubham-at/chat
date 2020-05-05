@@ -85,7 +85,7 @@ Task("Get_next_release_number")
     )
     .Does<BuildContext>(buildContext =>
 {
-    Information("Running semantic-release in dry run mode to extract next release number");
+    Information("Running semantic-release in dry run mode to extract the next release number");
 
     string[] semanticReleaseOutput;
     Npx("semantic-release", "--dry-run", requiredSemanticVersionPackages, out semanticReleaseOutput);
